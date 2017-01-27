@@ -1,3 +1,7 @@
 Q1: What happens when you initialize a repository? Why do you need to do it?
 A1: Git initializes an empty git directory, and then informs you that the files contained within are not 
 yet tracked.  I assume this is the first step in using git for version tracking and creating commits.
+
+Q2: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A2: The staging area basically contains only the files you are currently working on and will want to track changes that 
+are made to them.  This allows you to control specifically which files are included in each commit.
