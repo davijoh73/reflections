@@ -1,0 +1,3 @@
+Q1: What happens when you initialize a repository? Why do you need to do it?
+A1: Git initializes an empty git directory, and then informs you that the files contained within are not 
+yet tracked.  I assume this is the first step in using git for version tracking and creating commits.

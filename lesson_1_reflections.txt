@@ -1,0 +1,34 @@
+Q1: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A1: By viewing a diff between the two versions, you are easily able to see what changed, which includes
+both intentional changes, and any changes that were made by accident, which can cause issues or crash 
+the program.
+
+Q2: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A2: It can be used as a reference tool for understanding what you did in the past, and what changes you made as you 
+developed the application.
+
+Q3: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+A3: It is nice for allowing you to commit at logical break points, which in turn can make using git diff more helpful when 
+comparing to find bugs or issues.  On the other hand, having to manually create a commit means that you may forget and 
+go too long without doing so and potentially losing work or committing too many changes at once.
+
+Q4: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A4: Each version control system uses the method that will be the most logical based on the intended use of the system itself.
+
+Q5: How can you use the commands git log and git diff to view the history of files?
+A5: Git log outputs a list of the commits in the order they were committed.  Git diff compares two of the different 
+commit files and outputs the number of changes in each and what line of code they were on.
+
+Q6: How might using version control make you more confident to make changes that could break something?
+A6: If you know you have the ability to easily go back to a previous known good state, when everything was working 
+properly, then you can take a little more risk in making your changes, and revert back if the change breaks 
+something.
+
+Q7: Now that you have your workspace set up, what do you want to try using Git for?
+A7: I plan on using Git for version control while developing VR apps in the Udacity VR Nanodegree program.  This 
+will help me to keep my edits organized as I work through the projects and course material to follow along 
+with the instructions.
+
+Bash commands:
+pwd # print working directory - shows what directory you are in
+ls  # list the files in this directory
