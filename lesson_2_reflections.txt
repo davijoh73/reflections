@@ -9,3 +9,21 @@ are made to them.  This allows you to control specifically which files are inclu
 Q3: How can you use the staging area to make sure you have one commit per logical change?
 A3: You can use git diff to verify the difference between the working directory and the staging area 
 and then commit the file when you are satisified with the changes you made.
+
+Q4: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A4: Branches might be nice for introducing new features or trying out a new things and still keeping the original code 
+working and intact.
+
+Q5: How do the diagrams help you visualize the branch structure?
+A5: They help you to understand where each branch begins and where they are in relation to the master branch.  They 
+can also help you to know if there are any commits that may become unreachable if you checkout another.
+
+Q6: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A6: By merging the two branches, you can incorporate the changes from the coins branch into the master branch and you 
+no longer have two branches.  The branches are like different paths of development or branches of a tree and so we 
+draw them that way.
+
+Git commands:
+git checkout -b new_branch_name -> combines creation of new branch and checks it out at the same time
+git log --graph --oneline branch_name1 branch_name2 ... -> visual representation of requested branches in relation to each other
+git show -> shows you the changes between a single commit and it's parent (without having to know the parent)
