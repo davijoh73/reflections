@@ -23,6 +23,11 @@ A6: By merging the two branches, you can incorporate the changes from the coins 
 no longer have two branches.  The branches are like different paths of development or branches of a tree and so we 
 draw them that way.
 
+Q7: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A7: If there are no conflicts, the automatic merging is nice because it saves time and does not require manual 
+intervention.  If there are conflicts, manually merging allows you to check the conflict and make the appropriate 
+choice concerning what to keep and what should be removed before merging.
+
 Git commands:
 git checkout -b new_branch_name -> combines creation of new branch and checks it out at the same time
 git log --graph --oneline branch_name1 branch_name2 ... -> visual representation of requested branches in relation to each other
