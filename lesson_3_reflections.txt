@@ -1,0 +1,4 @@
+Q1: When would you want to use a remote repository rather than keeping all your work local?
+A1: A remote repository would work great for collaborating with others on a project, or if it may be 
+possible that you will work from multiple devices in different locations.  It's also a good way to 
+back up your work in case something happens to your PC and you lose your local files.
