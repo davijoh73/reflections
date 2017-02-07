@@ -6,3 +6,15 @@ back up your work in case something happens to your PC and you lose your local f
 Q2: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 A2: This gives you a chance to make sure you want to keep what you have, or to test new code before 
 saving it in the remote repository.
+
+Q3: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A3: A fork creates a clone of a remote repository on GitHub, to allow you to change files that you may not have 
+permission to do on the original repository.  A clone is a copy of a repository (remote -> local, or local -> local) 
+and is typically used to work on files locally on your computer. A branch is the original or a separate history of 
+commits in a repository, allowing you to maintain version control on your work.
+
+Q4: What is the benefit of having a copy of the last known state of the remote stored locally?
+A4: This allows you to work offline like on an airplane or without an internet connection.
+
+Git commands:
+Git fetch -> allows you to 'pull' changes from the remote, updating local copy only (new branch), allowing use of get diff for conflicts before merging
