@@ -16,5 +16,10 @@ commits in a repository, allowing you to maintain version control on your work.
 Q4: What is the benefit of having a copy of the last known state of the remote stored locally?
 A4: This allows you to work offline like on an airplane or without an internet connection.
 
+Q5: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A5: I would probably use a cloud storage app like Dropbox or Google Drive.  It might be a little easier because 
+there would be less to configure intitially, but managing version control while collaborating with others would 
+be significantly harder, since it would rely on everybody being responsible for their own work and merging changes.
+
 Git commands:
 Git fetch -> allows you to 'pull' changes from the remote, updating local copy only (new branch), allowing use of get diff for conflicts before merging
