@@ -21,5 +21,10 @@ A5: I would probably use a cloud storage app like Dropbox or Google Drive.  It m
 there would be less to configure intitially, but managing version control while collaborating with others would 
 be significantly harder, since it would rely on everybody being responsible for their own work and merging changes.
 
+Q6: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A6: Using a separate branch is ideal for making changes that may break the original code or adding features that may or may 
+not be incorporated into the final release.  This makes it harder to update the master branch though when collaborating. 
+Simply working directly in the master branch makes commiting your changes much less complicated.
+
 Git commands:
 Git fetch -> allows you to 'pull' changes from the remote, updating local copy only (new branch), allowing use of get diff for conflicts before merging
